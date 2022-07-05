@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ITMO.CS.WF.Lab1
+namespace ITMO.CS.WF.Lab2
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace ITMO.CS.WF.Lab1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ParentForm());
+            Application.Run(new RegistrationForm());
         }
     }
 }
